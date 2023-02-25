@@ -14,7 +14,7 @@ function grading(){
     else if(avg>=40 && avg<50){grade="D";}
     else if(avg<40){grade="E";}
     else{grade="Invalid";}
-  console.log("You have scored a total marks of", Total, "and a mean grade of", grade);
+  console.log("You have scored a total marks of", Total, "and a mean grade of", grade , "thank you!");
   
   
   }
