@@ -1,10 +1,10 @@
 function grading(){
   
-    var Eng=parseInt(prompt("Enter your english score"));
-    var Kis=parseInt(prompt("Enter your Kis score"));
-    var Math=parseInt(prompt("Enter your math score"));
-    var Phyc=parseInt(prompt("Enter your phyc score"));
-    var Histo=parseInt(prompt("Enter your history score"));
+    var Eng=90;
+    var Kis=70;
+    var Math=88;
+    var Phyc=90;
+    var Histo=98;
     var Total=(Eng + Kis + Math + Phyc + Histo);
     var avg=(Total)/5;
     var grade;
